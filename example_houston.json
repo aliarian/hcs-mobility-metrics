@@ -1,0 +1,132 @@
+{
+	"boundary": [
+		-95.586126,
+		29.615581,
+		-95.162003,
+		29.963783
+	],
+	"center": [
+		-95.363396,
+		29.757713
+	],
+	"zoom": 12.75,
+	"privacyMinimum": 3,
+	"lost": 2,
+	"geographicFilter": {
+		"type": "Feature",
+		"properties": {
+		},
+		"geometry": {
+			"type": "Polygon",
+			"coordinates": [
+				[
+					[
+						-95.586126,
+						29.615581
+					],
+					[
+						-95.162003,
+						29.615581
+					],
+					[
+						-95.162003,
+						29.963783
+					],
+					[
+						-95.586126,
+						29.963783
+					],
+					[
+						-95.586126,
+						29.615581
+					]
+				]
+			]
+		}
+	},
+	"summary": {
+		"Unique Vehicles": true,
+		"Active Vehicles": true,
+		"Total Trips": true,
+		"Total Trip Distance": true,
+		"Distance Per Vehicle": true,
+		"Vehicle Utilization": true,
+		"Trips Per Active Vehicle": true,
+		"Avg Trip Distance": true,
+		"Avg Trip Duration": true
+	},
+	"providers": {
+		"Flipr": {
+			"type": "local",
+			"trips": "example/data/Flipr/trips.json",
+			"status_changes": "example/data/Flipr/changes.json",
+			"enabled": true
+		},
+		"Scoob": {
+			"type": "local",
+			"trips": "example/data/Scoob/trips.json",
+			"status_changes": "example/data/Scoob/changes.json",
+			"enabled": true
+		},
+		"BikeMe": {
+			"type": "local",
+			"trips": "example/data/BikeMe/trips.json",
+			"status_changes": "example/data/BikeMe/changes.json",
+			"enabled": true
+		},
+		"Spuun": {
+			"type": "local",
+			"trips": "example/data/Spuun/trips.json",
+			"status_changes": "example/data/Spuun/changes.json",
+			"enabled": true
+		},
+		"Bird": {
+			"type": "mds",
+			"trips": "",
+			"status_changes": "",
+			"token": "",
+			"enabled": false
+		},
+		"Jump": {
+			"type": "mds",
+			"trips": "",
+			"status_changes": "",
+			"token": "",
+			"enabled": false
+		},
+		"Lime": {
+			"type": "mds",
+			"trips": "",
+			"status_changes": "",
+			"token": "",
+			"enabled": false
+		},
+		"Scoot": {
+			"type": "mds",
+			"trips": "",
+			"status_changes": "",
+			"token": "",
+			"enabled": false
+		},
+		"Spin": {
+			"type": "mds",
+			"trips": "",
+			"status_changes": "",
+			"token": "",
+			"enabled": false
+		}
+	},
+	"zones": {
+		"type": "FeatureCollection",
+		"name": "blocks",
+		"crs": {
+			"type": "name",
+			"properties": {
+				"name": "urn:ogc:def:crs:EPSG::4269"
+			}
+		},
+		"features": [
+
+		]
+	}
+}
